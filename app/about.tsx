@@ -6,6 +6,8 @@ export default function About() {
       <Text style={styles.title}>About This App</Text>
       <Text style={styles.text}>
         This is a simple practice project built by Temesgen to learn React Native basics.
+        i'm software engineer and also full stack web application developer
+        
       </Text>
     </View>
   );
