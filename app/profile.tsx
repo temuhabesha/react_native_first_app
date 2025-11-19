@@ -1,4 +1,5 @@
 import { View, Text, StyleSheet, Image } from "react-native";
+import ButtonText from '../components/buttonText.jsx'
 
 export default function Profile() {
   return (
@@ -10,6 +11,7 @@ export default function Profile() {
 
       <Text style={styles.name}>Temesgen Wondim</Text>
       <Text style={styles.role}>MERN Stack & Future AI Developer</Text>
+      <ButtonText/>
     </View>
   );
 }
